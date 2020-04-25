@@ -1,0 +1,17 @@
+.gallary{
+    padding:20px;
+    
+  }
+  
+  .gallary img {
+    margin: 20px;
+    width: 21.5%;
+    height: auto;
+  }
+  
+  .gallary img:hover{
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+
+  

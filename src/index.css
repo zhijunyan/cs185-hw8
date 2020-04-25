@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,91 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* ....Home page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.home{
+  padding:20px;
+	display: flex;
+
+}
+.home img{
+  width: 50%;
+  height: auto;
+}
+
+
+
+
+/* ....Images page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+. image{
+  padding:20px;
+  
+}
+
+.image img {
+  margin: 20px;
+  width: 21.5%;
+  height: auto;
+}
+
+.image img:hover{
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+
+/* ....Videos page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.vid {
+  justify-content: center;
+  align-content: center;
+  margin: 120px;
+}
+
+.vid video{
+  margin: 10px;
+  width: 30%;
+  height: auto;
+}
+
+.vid video:hover{
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+
+
+/* ....Videos page's css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.project {
+  padding:20px;
+	display:;
+}
+
+/* ....TO TOP css file>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.bar {
+  font-family: sans-serif;
+  padding: 1rem 5rem;
+}
+
+p {
+  border: 1px solid black;
+  padding: 2rem;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

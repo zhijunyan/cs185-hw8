@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Page from './App.js';
+import ScrollToTopBtn from "./Components/scroll";
+
 import * as serviceWorker from './serviceWorker';
+
+
+function Top() {
+  return (
+    <div className="bar">
+      <Page />
+      <ScrollToTopBtn />
+    </div>
+  );
+}
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Top />
   </React.StrictMode>,
   document.getElementById('root')
 );
