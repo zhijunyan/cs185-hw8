@@ -42,6 +42,31 @@ export class App extends Component{
     {
       id:4,
       title: 'Projects'
+    },
+
+    {
+      id:5,
+      title: 'Movies'
+    },
+
+    {
+      id:6,
+      title: '+Movie'
+    },
+
+    {
+      id:7,
+      title: '+List'
+    },
+
+    {
+      id:8,
+      title: 'Movie-Graph'
+    },
+    
+    {
+      id:9,
+      title: 'Form'
     }
 
     ]

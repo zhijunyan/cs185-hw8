@@ -15,14 +15,14 @@ export class Home extends Component{
 		
 			<h2>Welcome to Zhijun Yan's assignment page of CS185 <br></br><br></br><br></br><br></br>
 			
-				Assignment 1: ❤ <br></br>
-				Assignment 2: ❤<br></br>
-				Assignment 3: ❤<br></br>
-				Assignment 4: ❤<br></br>
-				Assignment 5: T.B.A<br></br>
-				Assignment 6: T.B.A<br></br>
-				Assignment 7: T.B.A<br></br>
-				Assignment 1: T.B.A</h2>
+				Assignment 1: √<br></br>
+				Assignment 2: √<br></br>
+				Assignment 3: √<br></br>
+				Assignment 4: √<br></br>
+				Assignment 5: √<br></br>
+				Assignment 6: √<br></br>
+				Assignment 7: √<br></br>
+				Assignment 8: √</h2>
 			
     	</div>
     	);
